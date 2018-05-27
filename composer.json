@@ -1,0 +1,27 @@
+{
+    "name": "simpla-components/arr",
+    "description": "collections of arrays",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "robertaodj",
+            "email": "robert.di.jesus@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "^6.5@dev"
+    },
+    "autoload" : {
+	   "psr-4": {
+	    "Simpla\\": [ 
+                "src/Simpla" 
+            ]
+       }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Simpla\\": "tests/Simpla"
+        }
+    }    
+}
