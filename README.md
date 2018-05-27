@@ -442,10 +442,7 @@ $arr->getMaxDimensions('getUser');
 
 
 ## <a name="order">Ordenando um Array</a>
-
-
  
-```
 
 ##### <a name="orderByKey">orderByKey()</a> 
 
